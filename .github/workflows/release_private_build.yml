@@ -5,10 +5,10 @@ name: Release Private Build
 env:
   libname: PCL
 
-  vcXXX: vc142
-  vs_toolset: v142
-  VSVER_RANGE: '[16.0,17.0)' 
-  VS20YY: 2019
+  vcXXX: vc143
+  vs_toolset: v143
+  VSVER_RANGE: '[17.0,18.0)' 
+  VS20YY: 2022
 
   VER_MPI: v10.1.1
   VER_CUDA: 11.8.0
@@ -20,12 +20,12 @@ env:
   INTSTALL_ROOT_DIR: "opt"
   DOWNLOAD_ROOT_DIR: "downloads"
 
-  dir_root_private_builds: "C:/ws/20240303_PrivateBuilds/for_PCL_1_13_1_static"
-  zipfile_name : "pcl-1.13.1-gpu/PCL_vc142_gpu.zip"
+  dir_root_private_builds: "C:/ws/20240711_PrivateBuilds/for_PCL_1_14_1_static"
+  zipfile_name : "pcl-1.14.1/PCL_vc143.zip"
 
-  url_boost: "https://github.com/boostorg/boost/releases/download/boost-1.82.0/boost-1.82.0.zip"
+  url_boost: "https://github.com/boostorg/boost/releases/download/boost-1.84.0/boost-1.84.0.zip"
   dir_boost: "Boost"
-  ver_boost: "1.82.0"
+  ver_boost: "1.84.0"
   url_bzip2: "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz"
   dir_bzip2: "bzip2"
   ver_bzip2: "1.0.8"
@@ -41,16 +41,16 @@ env:
   url_flann: "https://github.com/flann-lib/flann/archive/refs/tags/1.9.1.zip"
   dir_flann: "flann"
   ver_flann: "1.9.1"
-  url_vtk: "https://github.com/Kitware/VTK/archive/refs/tags/v9.2.6.zip"
+  url_vtk: "https://github.com/Kitware/VTK/archive/refs/tags/v9.3.0.zip"
   dir_vtk: "VTK"
-  ver_vtk: "9.2.6"
-  url_pcl: "https://github.com/PointCloudLibrary/pcl/releases/download/pcl-1.13.1/source.zip"
+  ver_vtk: "9.3.0"
+  url_pcl: "https://github.com/PointCloudLibrary/pcl/releases/download/pcl-1.14.1/source.zip"
   dir_pcl: "PCL"
-  ver_pcl: "1.13.1"
+  ver_pcl: "1.14.1"
   url_open3d: "https://github.com/isl-org/Open3D/archive/refs/tags/v0.17.0.zip"
   dir_open3d: "Open3D"
   ver_open3d: "0.17.0"
-  
+
   
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
